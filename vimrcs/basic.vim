@@ -113,18 +113,7 @@ set tm=500
 set foldcolumn=1
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Colors and Fonts
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Enable syntax highlighting
-syntax enable 
-
-try
-    colorscheme desert
-catch
-endtry
-
-set background=dark
+colorscheme desert
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -160,8 +149,8 @@ set expandtab
 set smarttab
 
 " 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=8
+set tabstop=8
 
 " Linebreak on 500 characters
 set lbr
